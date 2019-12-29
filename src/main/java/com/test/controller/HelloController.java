@@ -9,6 +9,7 @@ public class HelloController {
     @RequestMapping("/info")
     public String info(){
         return "Hello SpringBoot info！I'm dev!" +
-                "Testing! stage/release-v1.0.1";
+                "Testing! stage/release-v1.0.1" +
+                "stage/release-v1.0.2";
     }
 }
