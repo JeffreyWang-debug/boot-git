@@ -10,6 +10,7 @@ public class HelloController {
     public String info(){
         return "Hello SpringBoot info！I'm dev!" +
                 "Testing! stage/release-v1.0.1" +
-                "stage/release-v1.0.2";
+                "stage/release-v1.0.2" +
+                "Stage/release-v1.1.0";
     }
 }
